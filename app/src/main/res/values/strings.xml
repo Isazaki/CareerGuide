@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CareerGuide</string>
+    <string name="get_started">Get Started...</string>
+    <string name="welcome">Welcome</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+</resources>
