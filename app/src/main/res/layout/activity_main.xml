@@ -10,16 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.career.careerguide.MainActivity">
 
-    <Button
-        android:text="@string/get_started"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="74dp"
-        android:id="@+id/startbutton"
-        android:onClick="nextPage" />
-
     <TextView
         android:text="@string/welcome"
         android:layout_width="wrap_content"
@@ -30,5 +20,15 @@
         android:id="@+id/welcome"
         android:textSize="32sp"
         android:textAlignment="center" />
+
+    <Button
+        android:text="@string/get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:id="@+id/startbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"/>
 
 </RelativeLayout>
