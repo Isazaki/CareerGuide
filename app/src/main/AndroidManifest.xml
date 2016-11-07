@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".GuideActivity"
             android:parentActivityName="com.example.career.careerguide.MainActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.career.careerguide.MainActivity"

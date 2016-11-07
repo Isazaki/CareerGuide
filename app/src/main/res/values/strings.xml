@@ -13,4 +13,12 @@
     <string name="dialog_title_help" >Help</string>
     <string name="dialog_message_help">Dialog message must be placed here..</string>
     <string name="developer_email">nodeflux@gmail.com</string>
+    <string name="please_select_a_country">Please select a country: </string>
+    <string name="Selection">Choose your preference</string>
+
+    <string-array name="cluster_array">
+            <item>Namibia</item>
+            <item>South Africa</item>
+            <item>Kenya</item>
+    </string-array>
 </resources>

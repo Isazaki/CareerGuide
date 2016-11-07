@@ -10,20 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.career.careerguide.GuideActivity"
     android:parentActivityName="com.example.career.careerguide.MainActivity"
-    android:orientation="vertical"
-    tools:ignore="UnusedAttribute">
+    android:orientation="vertical">
 
     <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/progressBar2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_height="wrap_content"
-        tools:ignore="ObsoleteLayoutParam" />
+        tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
 
     <TextView
         android:text="@string/Selection"
@@ -34,14 +32,13 @@
         android:layout_below="@+id/progressBar2"
         android:id="@+id/questiontextView"
         tools:text="Choose your preference"
-        tools:ignore="ObsoleteLayoutParam"
-        android:textAlignment="viewStart"
-        android:layout_gravity="start"/>
+        tools:ignore="ObsoleteLayoutParam" />
 
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_below="@+id/questiontextView"
         android:id="@+id/careerListView"
-        />
+        tools:ignore="ObsoleteLayoutParam"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

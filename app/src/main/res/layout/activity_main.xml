@@ -10,25 +10,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.career.careerguide.MainActivity">
 
-    <TextView
-        android:text="@string/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
-        android:id="@+id/welcome"
-        android:textSize="32sp"
-        android:textAlignment="center" />
-
     <Button
         android:text="@string/get_started"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
         android:id="@+id/startbutton"
-        android:layout_alignParentBottom="true"
+        android:onClick="onClick"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/countryselection"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/please_select_a_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryselection"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="onClick"/>
+        android:layout_marginTop="12dp" />
+
 
 </RelativeLayout>
